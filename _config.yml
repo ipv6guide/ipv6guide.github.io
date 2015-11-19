@@ -1,0 +1,23 @@
+# Site settings
+title: IPv6 Guide
+email: webmaster@ipv6guide.net
+description: > # this means to ignore newlines until "baseurl:"
+  This website is a repository for IPv6
+  related documentation, guides, best
+  practices etc.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://ipv6guide.net" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "page"
