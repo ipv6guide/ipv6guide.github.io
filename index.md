@@ -28,7 +28,7 @@ IPv6 information. The contents of this website are maintained on
 
 All content contributed to this website must be made available under the
 [Creative Commons Attribution-ShareAlike 4.0 International 
-(CC BY-SA 4.0)] (http://creativecommons.org/licenses/by-sa/4.0/) license
+(CC BY-SA 4.0)](http://creativecommons.org/licenses/by-sa/4.0/) license
 so that others can use it.
 
 -----
