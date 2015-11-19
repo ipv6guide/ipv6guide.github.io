@@ -34,13 +34,6 @@
     .page-link {
         color: $text-color;
         line-height: $base-line-height;
-
-        // Gaps between nav items, but not on the first one
-        &:not(:first-child):before {
-            content: '/ ';
-            margin-left: 5px;
-            margin-right: 5px;
-        }
     }
 
     @include media-query($on-palm) {
@@ -84,12 +77,10 @@
         .page-link {
             display: block;
             padding: 5px 10px;
+        }
 
-            &:not(:first-child):before {
-                content: '';
-                margin-left: 0;
-                margin-right: 0;
-            }
+        .separator {
+            display: none;
         }
     }
 }
