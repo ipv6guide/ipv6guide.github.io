@@ -14,7 +14,8 @@ Deploying IPv6 throughout an enterprise is not something that can be done
 without [proper planning](planning).  You need to prepare yourself well.  A
 first step is to appoint an [IPv6 project manager](project_manager).  One of
 the first tasks of this project manager should be to [identify which
-equipment needs upgrades or replacement](identify_equipment).  Enterprises
+equipment and applications need upgrades or replacement](identify_equipment).
+Enterprises
 often use online services (a.k.a.  "Cloud"), either as a service for their
 own users or to outsource providing services to their customers.  You should
 [identify which services support IPv6](identify_services).  This is not only
