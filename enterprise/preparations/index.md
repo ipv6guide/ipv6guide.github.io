@@ -7,7 +7,7 @@ reasons](incentives) why IPv6 should be implemented.  Even though there is a
 global need for more than IPv4 can provide every organisation will have
 different reasons for implementing IPv6 in a specific place at a specific
 time.  These might not be obvious to everyone involved.  Making sure that
-everybody understands the rasons will prevent a lot of problems later in the
+everybody understands the reasons will prevent a lot of problems later in the
 project.
 
 Deploying IPv6 throughout an enterprise is not something that can be done

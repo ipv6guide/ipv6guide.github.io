@@ -19,11 +19,11 @@ available for more than a decade there are many devices and applications
 that haven't been properly prepared for it.  We recognise the following
 classes of devices and applications:
 
-1) Disturbed by IPv6
-2) Oblivious to IPv6
-3) Compatible with IPv6
-4) Feature parity for IPv6
-5) Enhanced for IPv6
+1. Disturbed by IPv6
+2. Oblivious to IPv6
+3. Compatible with IPv6
+4. Feature parity for IPv6
+5. Enhanced for IPv6
 
 1: Disturbed by IPv6
 --------------------
