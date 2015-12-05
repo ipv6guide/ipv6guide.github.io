@@ -61,10 +61,12 @@ important, but not all, features using IPv6, or where the configuration for
 IPv6 is adds a lot of complexity.  Examples are:
 
 - routers that can route IPv6 packets but can only be managed over IPv4
-- mail servers that can receive mail over IPv6 but don't provide full spam protection
+- mail servers that can receive mail over IPv6 but don't provide full spam
+  protection
 - switches that can do DHCP snooping for IPv4 but not for IPv6
 - load balancers that don't support all load-balancing strategies for IPv6
-- firewalls that have completely separate rules for IPv4 and IPv6, requiring everything to be configured twice
+- firewalls that have completely separate rules for IPv4 and IPv6, requiring
+  everything to be configured twice
 
 Whether the limitations are a problem depends on the function and situation. 
 In some situations it might be acceptable to keep such a device or
