@@ -29,7 +29,11 @@ IPv6 information. The contents of this website are maintained on
 All content contributed to this website must be made available under the
 [Creative Commons Attribution-ShareAlike 4.0 International 
 (CC BY-SA 4.0)](http://creativecommons.org/licenses/by-sa/4.0/) license
-so that others can use it.
+so that others can use it freely.
+
+When sending in pull-requests please explicitly state that you hold the
+rights to your contributed content and that you agree that your contributions
+are published under this license.
 
 -----
 Based on work for and by:
