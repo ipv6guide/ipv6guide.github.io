@@ -22,5 +22,7 @@ We recommend to split an project to implement IPv6 into at least three separate
 stages. First begin with [preparations](preparations) like making clear to
 others in your organisation why IPv6 is important, identifying dependencies and
 getting the right people in place and trained. Then it is time to make some
-[architectural decisions](architectural_decisions) like
-- [Implementation](implementation)
+[architectural decisions](architectural_decisions) like deciding on what kind
+of addresses to use and which routing protocols to route them with. And finally
+there is the [implementation](implementation) phase where you add IPv6 to your
+networks, applications and services.
