@@ -18,8 +18,9 @@ them to deploy IPv6 with as little effort as possible.
 
 Phases
 ======
-We recommend to split an project to implement IPv6 into at least these three stages:
-
-- [Preparation](preparations)
-- [Architectural decisions](architectural_decisions)
+We recommend to split an project to implement IPv6 into at least three separate
+stages. First begin with [preparations](preparations) like making clear to
+others in your organisation why IPv6 is important, identifying dependencies and
+getting the right people in place and trained. Then it is time to make some
+[architectural decisions](architectural_decisions) like
 - [Implementation](implementation)

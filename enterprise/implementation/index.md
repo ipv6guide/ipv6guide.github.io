@@ -2,57 +2,51 @@
 title: Implementation
 ---
 
-Talk to your uplink ISP(s) about IPv6 availability
-==================================================
-The enterprise IPv6 connectivity requirements include:
+Now that you have [prepared](../preparations) everything and made the
+necessary [architectural decisions](../architectural_decisions) it is time
+to start implementing!
 
-- IPv4 / IPv6 Dual Stack connections (data communication) across the
-  contracted circuit
-- IPv4 / IPv6 Service level Agreements (SLA’s) equal to existing contracted
-  SLA’s for the contracted circuit
-- IPv4 / IPv6 circuit bandwidth, latency, packet loss, packet reordering and
-  jitter specifications equal to existing contracted circuit
-- IPv6 routing of the enterprise's address space equal to existing routing
-  across the contracted circuit
+You should first [talk to your ISP(s)](isp_criteria) about IPv6.  All
+respectable ISPs should be able to provide you with IPv6 connectivity these
+days, so if your ISP doesn't provide IPv6 then you should seriously consider
+switching to a different one.  Besides making sure your ISP provides you
+with the required services now is also the time to start an [RFP](rfp) to
+upgrade or replace the equipment and services that don't provide all the
+IPv6 features that you need.
 
-We provide example checklists for 
-[circuits](circuit_checklist),
-[routing prefixes](routing_checklist)
-and
-[services](services_checklist).
+When deploying a new protocol like IPv6 it is important to get advice and
+support from someone who already has experience with the deployment. 
+Getting a [consultant](consultant_criteria) that can help with the IPv6
+project can help you avoid mistakes.
 
-Start an RFP for new equipment
-============================== 
+One of the most common mistakes when implementing IPv6 is to treat the IPv6
+address space like IPv4.  It is a good idea to use [IP Address Management
+(IPAM)](ipam) tools from the start.  With the enormous amount of address
+space that IPv6 provides you keeping track of everything in a spreadsheet or
+text document will quickly become cumbersome.  Using the right tools from
+the start will save you a lot of work later on.
 
-Appoint consultants that can help with the IPv6 project
-=======================================================
+With the help of your IPv6 consultant you should write an [implementation
+plan](plan).  This plan describes the way IPv6 is going to be deployed and
+the order in which IPv6 is going to be deployed in the different parts of
+your enterprise network.
 
-Make a plan of IPv6 implementation
-==================================
+When deploying IPv6 do not forget to include IPv6 network and services
+[monitoring](monitoring).  If IPv6 breaks your service will break for at
+least a part of your user base.  Make sure that you notice IPv6 related
+outages so that you can provide the same level of service on both IPv4 and
+IPv6.
 
-Start with IPAM, later is harder…
-=================================
+While deploying IPv6 [document](documentation) the results in such a way
+that your colleagues and other ICT departments know how your network is
+built with both IPv4 and IPv6.  Make sure it contains all information that
+is required to understand the choices that have been made.  Your knowledge
+of IPv6 is probably more advanced than that of your colleagues at this
+point, and many things that seem intuitive and common sense still need to be
+explained for those not yet as experienced.
 
-Introducing IPv6 security mechanisms and policy
-===============================================
-
-Start small - IPv6 for your local administrators LAN
-====================================================
-
-First services on IPv6: DNS, WEB, MAIL,...
-==========================================
-
-Setup and configure network and services monitoring/alerting platform
-=====================================================================
-
-Document the procedures, project activity and final states and achievements
-===========================================================================
-
-VoIP and IPv6
-=============
-
-Embed IPv6 in all future ICT projects
-=====================================
-
-Document the final result, draw a network diagram, put the documentation in archives and live happily ever after.
-=================================================================================================================
+Integrating IPv6 in your existing infrastructure is hard work.  It would be
+a waste of time and money if other projects deploy IPv4-only solutions that
+need extra work later to become IPv6 capable.  It is important that IPv6 is
+taken into account in all future ICT projects so that you don't need to keep
+catching up.
