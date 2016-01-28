@@ -26,7 +26,7 @@ Summary
 - Using your own PI addresses is a good idea when:
   - You want to connect to multiple ISPs
   - You want to be able to change ISPs
-- You don't want to renumber your network
-  - Using your own PI addresses might not be a good idea when:
+  - You don't want to renumber your network
+- Using your own PI addresses might not be a good idea when:
   - You want to connect customers
 
