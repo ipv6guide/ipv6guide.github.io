@@ -12,18 +12,22 @@ and useful way, not limited by scarcity.
 Getting a block of IPv6 addresses from your ISP is easy. ISPs get a Provider
 Aggregatable (PA) block from their Regional Internet Registry, and this block
 provides plenty addresses to give each customer a /48. They usually provide
-that /48 as part of the standard service. The downside of using your ISP's PA
-addresses is that you use *their* addresses. When you want to connect to
-multiple ISPs for redundancy you can't really get that because each ISP will
-provide you with addresses from their own block. The addresses from one ISP
-are not accessible through the other ISP. This also happens when you want to
-change ISPs: you'll have to give the old block back to the ISP you are leaving
-and you'll get a new block from your new ISP.
+that /48 as part of the standard service.
 
-Because NAT isn't used with IPv6 you'll use your ISP's prefix for both your
-externally accessible services and your internal networks. When changing ISPs
-this means that you'll have to rennumber from the old addresses to the new
-ones. With IPv6 this is easier to do than with IPv4. IPv6 is designed so that
+The downside of using your ISP's PA addresses is that you use *their* addresses.
+When you want to connect to
+multiple ISPs for redundancy you can't get real redundancy because each ISP will
+provide you with addresses from their own block. The addresses from one ISP
+are not accessible through the other ISP.
+
+This also happens when you want to
+change ISPs: you'll have to give the old block back to the ISP you are leaving
+and you'll get a new block from your new ISP.  You'll have to renumber from 
+the old addresses to the new ones. 
+Because NAT isn't used with IPv6 this includes both your externally accessible
+services and your internal networks.
+
+With IPv6 this is easier to do than with IPv4. IPv6 is designed so that
 using multiple addresses is normal. You can therefore connect the new ISP,
 add their addresses to your network, and after everything has been migrated
 you can remove the old ISP's addresses and cancel your connection to them.
