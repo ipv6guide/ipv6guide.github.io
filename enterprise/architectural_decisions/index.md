@@ -3,20 +3,19 @@ title: Architectural decisions
 ---
 
 When introducing IPv6 there are many architectural questions that have to be
-answered.  One of the most fundamental ones is to think about the addressing
-plan on a high level: what
-kind of address prefix do you need?  Are you going to [use IPv6 address from
-your ISP](use_PA), are you going to [get provider independent
-addresses](use_PI) or are you going to [get your own huge block of
-addresses](become_LIR) to be able to assign addresses to all your sites and
-infrastructure?  Each choice has its own [advantages and
-disadvantages](discuss_PI_PA_LIR) that you'll have to consider.
+answered.  One of the more fundamental ones is to think about the addressing
+plan on a high level: 
+Are you going to [use IPv6 address fromyour ISP](use_PA), 
+are you going to [get provider independent addresses](use_PI) 
+or are you going to [get your own huge block of addresses](become_LIR) 
+to be able to assign addresses to all your sites and infrastructure?  
+Each choice has its own [advantages and disadvantages](discuss_PI_PA_LIR) that you'll have to consider.
 
 If you have chosen to use your own addresses then you need to [make those
 addresses reachable from the internet](routability).  Enterprises usually do
 this by [buying transit connectivity](connect_transit) from one or more
-ISPs.  If your enterprise consists of one or a few sites all connected to
-the same ISP then this is quite straightforward, but there is a popular but
+ISPs.  If your enterprise consists of one or a few sites and they all connected to
+the same ISP then this is quite straightforward, but there is a popular yet
 complex situation: enterprises that have many sites, sometimes spread over
 multiple countries or even multiple continents, but still want to use one
 huge block of addresses to keep a consistent addressing plan.  We explore
@@ -38,7 +37,7 @@ And then it is time to think about the more technical aspects of your IPv6
 architecture.  Because IPv6 doesn't use NAT many people are afraid of the
 security implications of having public addresses throughout the network. 
 The good news is: that is how the internet was designed!  Modern firewalls
-provide the same level op protection as NAT devices, and more.  This is a
+provide the same or higher levels of protection as NAT devices, and more.  This is a
 good time to [think about different types of firewalls and for what purpose
 you are going to use them](consider_firewalls).
 
