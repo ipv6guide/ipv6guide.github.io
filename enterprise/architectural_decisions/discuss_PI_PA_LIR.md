@@ -2,8 +2,8 @@
 title: Pros and cons of different address types
 ---
 We have discussed different ways of getting IPv6 addresses to use in your
-deployment: [from your ISP](use_PA), [provider independent](use_PI) or
-[becoming an ISP for your own organisation](use_LIR). Here we put those
+deployment: [from your ISP](../use_PA), [provider independent](../use_PI) or
+[becoming an ISP for your own organisation](../become_LIR). Here we put those
 different options side by side and discuss why you would choose one or the
 other.
 
@@ -22,9 +22,9 @@ tried to put the most important aspects into one table to help you to
 make the right choice.
 
 In the table below
-PI refers to [getting provider independent addresses](use_PI),
-PA refers to [using addresses from your ISP](use_PA) and
-LIR refers to [becoming an ISP for your internal organisation](become_LIR).
+PI refers to [getting provider independent addresses](../use_PI),
+PA refers to [using addresses from your ISP](../use_PA) and
+LIR refers to [becoming an ISP for your internal organisation](../become_LIR).
 
 | Aspect                                              | PI  | PA  | LIR |
 |:----------------------------------------------------|:---:|:---:|:---:|
