@@ -13,3 +13,12 @@ Remember, a /29 is 512k /48s, that is a lot of IPv6 address space.
 
 In any case, it is always recommended to write your addressing plan before requesting your IPv6 addresses, to avoid renumbering projects later on.
 
+Summary
+-------
+
+- Becoming a member of an RIR is a good idea when:
+  - You want to connect customers
+  - You want to get a large block of addresses
+- Becoming a member of an RIR might *not* be a good idea when:
+  - You only need a small block of IPv6
+  - You only want to use IPv6 for your own infrastructure
