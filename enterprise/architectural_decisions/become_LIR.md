@@ -1,5 +1,5 @@
 ---
-Becoming an LIR
+Title: Becoming an LIR
 ---
 
 In some cases, the only way to get IPv6 addresses is to become a member of a Regional Internet Registry (RIR).
