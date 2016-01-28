@@ -13,3 +13,19 @@ of RIPE NCC that is willing to request the IPv6 addresses on your behalf. This i
 of the request and often the RIPE Database. 
 
 Your Provider Independent address block will be assigned to your enterprise, so in the end you are responsible for your IPv6 addresses. 
+The good news is that you would never have to renumber your network, because you don't have to return the addresses to your provider in case you are changing a contract. 
+Your sponsoring LIR probably will charge you with an administrative of maintenance fee for your addresses. This is not unusual.
+
+With Provider Independent addresses it is also possible that you announce your block to multiple providers. This is called multihoming.
+
+One thing is important to keep in mind: In the RIPE region, you can only get PI IPv6 addresses if you only use them for your own infrastructure. Connecting customers with PI is not allowed. In that case, you will have to become a member of RIPE NCC and get an IPv6 allocation.
+
+Summary
+
+Using your own PI addresses is a good idea when:
+You want to connect to multiple ISPs
+You want to be able to change ISPs
+You don't want to renumber your network
+Using your own PI addresses might not be a good idea when:
+You want to connect customers
+
