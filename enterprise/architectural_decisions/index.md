@@ -8,7 +8,7 @@ plan on a high level:
 Are you going to [use IPv6 address fromyour ISP](use_PA), 
 are you going to [get provider independent addresses](use_PI) 
 or are you going to [get your own huge block of addresses](become_LIR) 
-to be able to assign addresses to all your sites and infrastructure?  
+to be able to assign addresses to all your sites and infrastructure?
 Each choice has its own [advantages and disadvantages](discuss_PI_PA_LIR) that you'll have to consider.
 
 If you have chosen to use your own addresses then you need to [make those
