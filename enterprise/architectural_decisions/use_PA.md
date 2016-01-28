@@ -27,7 +27,7 @@ the old addresses to the new ones.
 Because NAT isn't used with IPv6 this includes both your externally accessible
 services and your internal networks.
 
-With IPv6 this is easier to do than with IPv4. IPv6 is designed so that
+With IPv6 renumbering is easier to do than with IPv4. IPv6 is designed so that
 using multiple addresses is normal. You can therefore connect the new ISP,
 add their addresses to your network, and after everything has been migrated
 you can remove the old ISP's addresses and cancel your connection to them.
