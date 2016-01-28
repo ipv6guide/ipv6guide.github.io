@@ -24,7 +24,7 @@ make the right choice.
 In the table below
 PI refers to [getting provider independent addresses](../use_PI),
 PA refers to [using addresses from your ISP](../use_PA) and
-LIR refers to [becoming an ISP for your internal organisation](../become_LIR).
+LIR refers to [becoming an ISP for your own organisation](../become_LIR).
 
 | Aspect                                              | PI  | PA  | LIR |
 |:----------------------------------------------------|:---:|:---:|:---:|
