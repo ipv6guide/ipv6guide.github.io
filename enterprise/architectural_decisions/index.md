@@ -5,7 +5,7 @@ title: Architectural decisions
 When introducing IPv6 there are many architectural questions that have to be
 answered.  One of the more fundamental ones is to think about the addressing
 plan on a high level: 
-Are you going to [use IPv6 address fromyour ISP](use_PA), 
+Are you going to [use IPv6 address from your ISP](use_PA), 
 are you going to [get provider independent addresses](use_PI) 
 or are you going to [get your own huge block of addresses](become_LIR) 
 to be able to assign addresses to all your sites and infrastructure?
