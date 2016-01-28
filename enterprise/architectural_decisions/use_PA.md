@@ -29,7 +29,9 @@ add their addresses to your network, and after everything has been migrated
 you can remove the old ISP's addresses and cancel your connection to them.
 Nevertheless, this can be a lot of work.
 
-To summarise:
+Summary
+-------
+
 - Using your ISP's PA addresses is a good idea when:
   - You only connect to one ISP
   - You don't change ISPs often
