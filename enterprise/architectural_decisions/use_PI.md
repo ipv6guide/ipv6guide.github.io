@@ -21,11 +21,12 @@ With Provider Independent addresses it is also possible that you announce your b
 One thing is important to keep in mind: In the RIPE region, you can only get PI IPv6 addresses if you only use them for your own infrastructure. Connecting customers with PI is not allowed. In that case, you will have to become a member of RIPE NCC and get an IPv6 allocation.
 
 Summary
+-------
 
-Using your own PI addresses is a good idea when:
-You want to connect to multiple ISPs
-You want to be able to change ISPs
-You don't want to renumber your network
-Using your own PI addresses might not be a good idea when:
-You want to connect customers
+- Using your own PI addresses is a good idea when:
+  - You want to connect to multiple ISPs
+  - You want to be able to change ISPs
+- You don't want to renumber your network
+  - Using your own PI addresses might not be a good idea when:
+  - You want to connect customers
 
