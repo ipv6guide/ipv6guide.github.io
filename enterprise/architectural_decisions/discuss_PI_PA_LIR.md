@@ -26,13 +26,14 @@ PI refers to [getting provider independent addresses](../use_PI),
 PA refers to [using addresses from your ISP](../use_PA) and
 LIR refers to [becoming an ISP for your own organisation](../become_LIR).
 
-| Aspect                                              | PI  | PA  | LIR |
-|:----------------------------------------------------|:---:|:---:|:---:|
-| Connect to one ISP                                  |     |  +  |  -  |
-| Connect to multiple ISPs                            |  +  |  -  |  +  |
-| Change ISP often                                    |  +  |  -  |  +  |
-| Don't change ISP often                              |     |  +  |     |
-| Don't mind renumbering your network                 |     |  +  |     |
-| You want to connect 3rd parties / customers         |  -  |     |  +  |
-| You need a small block of addresses                 |  +  |  +  |     |
-| You need a large block of addresses                 |  -  |  -  |  +  |
+| Aspect                                                  | PA  | PI  | LIR |
+|:--------------------------------------------------------|:---:|:---:|:---:|
+| Connect to one ISP                                      |  +  |     |  -  |
+| Connect to multiple ISPs                                |  -  |  +  |  +  |
+| Don't want responsibility for [routing](../routability) |  +  |     |  -  |
+| Change ISP often                                        |  -  |  +  |  +  |
+| Don't change ISP often                                  |  +  |     |     |
+| Don't mind renumbering your network                     |  +  |     |     |
+| You want to connect 3rd parties / customers             |     |  -  |  +  |
+| You need a small block of addresses                     |  +  |  +  |     |
+| You need a large block of addresses                     |  -  |  -  |  +  |

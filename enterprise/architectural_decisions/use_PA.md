@@ -39,6 +39,8 @@ Summary
 - Using your ISP's PA addresses is a good idea when:
   - You only connect to one ISP
   - You don't change ISPs often
+  - You don't want the responsibility of getting the addresses routed on the
+    internet
 - Using your ISP's PA addresses might *not* be a good idea when:
   - You want to connect to multiple ISPs
   - You change ISPs regularly
