@@ -14,9 +14,9 @@ Each choice has its own [advantages and disadvantages](discuss_PI_PA_LIR) that y
 If you have chosen to use your own addresses then you need to [make those
 addresses reachable from the internet](routability).  Enterprises usually do
 this by [buying transit connectivity](connect_transit) from one or more
-ISPs.  If your enterprise consists of one or a few sites and they all connected to
-the same ISP then this is quite straightforward, but there is a popular yet
-complex situation: enterprises that have many sites, sometimes spread over
+ISPs.  If your enterprise consists of one or a few sites and they are all connected to
+the same ISP, then this is quite straightforward, but there is a popular yet
+complex situation: some enterprises have many sites, sometimes spread over
 multiple countries or even multiple continents, but still want to use one
 huge block of addresses to keep a consistent addressing plan.  We explore
 the conflicting interests of the [routing table size vs simplified address
