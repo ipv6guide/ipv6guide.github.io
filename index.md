@@ -6,11 +6,14 @@ layout: default
 Focus areas
 ===========
 
-For some environments we are building a whole set of documentation to help
-you get started.  For now we have only one such section for enterprises. 
+This website focusses on providing organisations that operate networks with
+infromation on how to use IPv6, and why. So far we have a section for
+enterprises and an FAQ about why we need IPv6 and why IPv4 is no sufficient.
+
 More contributions would be more than welcome!
 
 - [Enterprise](enterprise)
+- [IPv4/IPv6 FAQ](ipv4_ipv6_faq)
 
 Information structure
 =====================
