@@ -25,22 +25,22 @@ Static - this is not an autoconfiguration mechanism. Used for infrastructure - s
 
 Managed - enable RAs on router, ensure autonomous flag is off (0), and other flags to on (1). Don't try to get DHCPv6 to set default route, because there's no option. Install DHCPv6 server, configure it, observe log file for new leases to fix stable addresses (DHCPv6 is not a unique identifier of machine, DUID is used). End devices that don't support DHCPv6 won't get address.
 
-Unmanaged - all IPv6 capable devices default to SLAAC. Enable RAs on router, ensure autonomous flag is on (1), other configuration is on (1). If router supports rDNS information in RA packets, configure that and client will receive IPv6 DNS if client understands that (Windows doesn't). Otherwise client will rely on IPv4 DNS server if that's available. If client doesn't support rDNS, then install DHCPv6 without address leases - set 'other' bit in RA packet to On (1), then client get DNS information from DHCPv6.
+Unmanaged - all IPv6 capable devices default to SLAAC. Enable RAs on router, ensure autonomous flag is on (1), other configuration is on (1). If router supports rDNS information in RA packets, configure that and client will receive IPv6 DNS if client understands that (Windows doesn't). Otherwise client will rely on IPv4 DNS server if that's available. If client doesn't support rDNS and you want it to use IPv6 DNS, then install DHCPv6 without address leases - set 'other' bit in RA packet to On (1), then client get DNS information from DHCPv6.
 
-enable RAs on router
+How does the end host select the IPv6 address in an unmanaged scenario?
 
-Manage
+The SLAAC mechanism uses the prefix information from the RA packet, sends the default route back to the source. There are multiple ways how to use this prefix information from the host - EUI64 (extended MAC, extra bits are FFFE, flip 7th bit), privacy addresses (RFC 4941, random identifiers - Windows) - MD5 hash over last 64 bits, address duplication detection, interface has totally unique addresses, one with status autoconf, the other status temporary that changes over time. 
 
-
-
-
-
+Privacy mechanisms are generating temporary addresses that are used for outgoing connections and no services are listening. So these change and can't easily be logged or traced. Accessible services use the permanent addresses, but not exposed to the outside world.
 
 Use Cases
+
+
 
 
 ---
 FAQ
 ---
-What happens if you do something different to /64
+What happens if you do something different to /64 for the interface identifier.
 What happens if you turn off router advertisements
+Where do I put the default gateway in DHCPv6
