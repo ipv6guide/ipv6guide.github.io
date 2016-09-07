@@ -1,5 +1,5 @@
 ---
-title: Template for requesting vendor commitment
+title: Template for IPv6 vendor commitment
 ---
 
 Introduction
