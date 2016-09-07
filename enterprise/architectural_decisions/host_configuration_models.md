@@ -1,6 +1,6 @@
-===
+---
 title: Host Configuration Models
-===
+---
 Remember when IPv6 was invented, DHCP (v4) didn't exist. They included in the IPv6, a mechanism we call SLAAC. The idea was that MAC address would used as interface identifier, but MAC address is only 48 bits. Needed to pad out to 64-bits, so added fffe. 
 Make the point that the interface identifier is 64 bits. Add link to 'What was the reason for 64 bits as interface identifier in the first place' [link to addressing bit]
 
@@ -23,9 +23,11 @@ Approaches
 
 Static - this is not an autoconfiguration mechanism. Used for infrastructure - servers, routers, switches, management ports, dumb non-mobile devices. Manually configure IP address, default route and optionally DNS server, the same as IPv4.
 
-Managed - 
+Managed - enable RAs on router, ensure autonomous flag is off (0), and other flags to on (1). Don't try to get DHCPv6 to set default route, because there's no option. Install DHCPv6 server, configure it, observe log file for new leases to fix stable addresses (DHCPv6 is not a unique identifier of machine, DUID is used). End devices that don't support DHCPv6 won't get address.
 
-Unmanaged - 
+Unmanaged - all IPv6 capable devices default to SLAAC. Enable RAs on router, ensure autonomous flag is on (1), other configuration is on (1). If router supports rDNS information in RA packets, configure that and client will receive IPv6 DNS if client understands that (Windows doesn't). Otherwise client will rely on IPv4 DNS server if that's available. If client doesn't support rDNS, then install DHCPv6 without address leases - set 'other' bit in RA packet to On (1), then client get DNS information from DHCPv6.
+
+enable RAs on router
 
 Manage
 
