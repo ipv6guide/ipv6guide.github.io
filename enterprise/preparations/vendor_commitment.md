@@ -1,5 +1,5 @@
 ---
-title: Template for demanding vendor commitment
+title: Template for requesting vendor commitment
 ---
 
 Introduction
