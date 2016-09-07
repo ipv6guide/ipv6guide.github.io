@@ -15,7 +15,24 @@ Benefits of DHCPv6 - more complex in setting-up, but provides more predictabilit
 Make the point Networks may have to combine different autoconfiguration models, or even use a variety of models on the same network.
 
 Decision Processes
-Don't follow IPv4 practices blindly, as there are IPv6 options that may simplify things. However, there are IPv6 models that can be used with existing systems, but you may miss out on some of the major advantages of IPv6. 
+Don't follow IPv4 practices blindly, as there are IPv6 options that may simplify things. However, there are IPv6 models that can be used with existing systems, but you may miss out on some of the major advantages of IPv6.
+
+What style of managed network? Start with most simple option - SLAAC, but if you need address stability and predicability for forensics, stable DNS, access control then think about DHCPv6. The other reason is that you have a managed IPv4 network and don't want to change all your tools.
+
+Approaches
+
+Static - this is not an autoconfiguration mechanism. Used for infrastructure - servers, routers, switches, management ports, dumb non-mobile devices.
+
+Managed - 
+
+Unmanaged - 
+
+Manage
+
+
+
+
+
 
 Use Cases
 
