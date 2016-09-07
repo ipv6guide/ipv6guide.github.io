@@ -24,6 +24,7 @@ experience has shown that vendors sometimes don't take IPv6 seriously. For the
 stability and manageability of our networks this needs to change.
 
 Some examples of bad experiences from the field:
+
 - Products that the vendor claims "supports IPv6" turns out to only support the
   bare minimum of IPv6 and lacks important functionality that is necessary to
   actually use it
