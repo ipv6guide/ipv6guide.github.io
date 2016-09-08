@@ -18,3 +18,7 @@ Worse
   Multiple addresses per interface is a different concpt
   Immaturity of software in the next few years
   Improperly deployed transition techniques
+
+ICMPv6 is a crucial component of an IPv6 network and basic functions of IPv6 rely on it. See RFC 4890 for more information.
+
+Look at what you're doing with IPv4 - make sure tools are able log and interpret IPv6 correctly. Firewalls, intrusion detection systems, intrusion prevention systems, logging. Do you scan for both IPv4 and IPv6? 
