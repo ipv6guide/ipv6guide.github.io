@@ -1,4 +1,0 @@
----
-title: Equipment validation labs
----
-
