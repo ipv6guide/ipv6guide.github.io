@@ -82,3 +82,20 @@ The vendor agrees, in writing, to the following:
   product line managers to make sure their products are embracing and supporting
   IPv6 in line with this vendor IPv6 commitment and to advocate its importance
   and status to C-level leadership in the company.
+
+Recommendations
+===============
+
+For enterprises and governments
+-------------------------------
+Require your vendors to conform to this statement in all tenders and contracts.
+If a significant number of organisations make the same requirements then it
+makes it easier for vendors to comply. This creates a better working environment
+for everyone involved.
+
+For vendors
+-----------
+Publish this statement on your website and other publications. This makes it
+easier for enterprises and governments to do business with you, and it also
+shows to the world that you are committed to keeping up with current
+developments. 
