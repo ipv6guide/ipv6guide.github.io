@@ -13,11 +13,11 @@ Biggest threat to IPv6 security is human error. Until IPv6 is part of the regula
 IPv6 makes some things better, other things worse and most things are just different, but no more or less secure
 Better
   Automated scanning and worm propagation is harder due to huge subnets
-  Link-local addresing can limit infrastructure attacks
-  IPsec will be routinely available for use where keys exist
+  Link-local addressing can limit infrastructure attacks
+  IPSec will be routinely available for use where keys exist
 Worse
   Lack of familiarity with IPv6 among operators.
-  Multiple addresses per interface is a different concpt
+  Multiple addresses per interface is a different concept
   Immaturity of software in the next few years
   Improperly deployed transition techniques
 
