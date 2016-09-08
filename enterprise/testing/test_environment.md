@@ -5,4 +5,17 @@ When you start thinking about IPv6 deployment in your network, build isolated en
 
 Building a test environment
 ===
-Obtain external IPv6 
+Obtain IPv6 router and switch (see other document), get an IPv6 compliant host, look for an IPv6 tunnel (need path to outside world)/upstream provider, get HE certification
+Aim is to get comfortable enough with system - give border router with IPv6 enabled to ISP that supports IPv6. 
+
+What to ask from your service provider about IPv6 - reference
+
+Build recursive DNS server 
+Build web server
+Build another router and enable an IGP - start segmenting prefix delegation, get acquainted with basic networking concepts, functions and services.
+Try out network sniffers - tcpdump, wireshark
+Once basic scenarios are tested, starting rolling out in production environment.
+Think about security policy first and foremost. Start from upstream, build a firewall (or see if existing can be used), start enabling IPv6 on core network, then configure OSPF/IS-IS. Think about enabling IPv6 in network segment that system and/or network administrators are using and can gain experience.
+Roll-out to rest of network. Ensure helpdesk is familar with Ripe-631.
+
+
