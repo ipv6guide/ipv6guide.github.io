@@ -33,8 +33,11 @@ cost for equipment and education](calculate_cost).
 With the reasons, plans and costs in hand it is time to [present these to
 the management](present_to_management).  Introducing a new network
 infrastructure involves many different people, departments and disciplines. 
-Without strong management support the project to implement IPv6 is doomed to
-fail.
+You also need proper IPv6 support from your vendors. Unfortunately some vendors
+claim to support IPv6 better than they do in practice. It is recommended to
+ask all your vendors to provide a [written statement on IPv6
+support](vendor_commitment). Without strong management and vendor support the
+project to implement IPv6 is doomed to fail.  
 
 The final step of a good preparation is to [build a lab](build_lab) and get
 some hands-on experience.  Just reading about IPv6 is not enough.  No matter
