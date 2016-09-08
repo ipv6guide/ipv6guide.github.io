@@ -33,6 +33,7 @@ Don't disable IPv6 in Windows - it's an unsupported configuration and required f
 
 Use switches that support RA guard mechanism (ripe-554), DHCPv6 guard, and all other mechanism described in first hop security (Cisco White Paper, IPv6 snooping policy) or ask vendor to implement it. 
 
+Write a document - ISPs and small business networks, recommendations on prefix delegation size and stability.
 
 
 
