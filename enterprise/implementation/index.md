@@ -50,3 +50,7 @@ a waste of time and money if other projects deploy IPv4-only solutions that
 need extra work later to become IPv6 capable.  It is important that IPv6 is
 taken into account in all future ICT projects so that you don't need to keep
 catching up.
+
+Most mainstream equipment has been well tested with IPv6. If you start using
+new features or equipment you can set up a [validation lab](validation_lab)
+to verify that everything works as it should.

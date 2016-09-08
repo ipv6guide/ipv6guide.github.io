@@ -56,3 +56,8 @@ these aspects of the different models and choose the best model for each
 network.  It is not uncommon to use different models for different types
 (servers, office, mobile devices, guests etc.) of networks so it is
 important you understand all of them.
+
+Depending on the complexity of the architecture you have designed you might
+want to [build a lab](build_lab) to see if the choices you made work well in
+practice. Especially if you are new to IPv6 detecting architectural mistakes at
+this point will save a lot of time later.
