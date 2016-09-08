@@ -3,7 +3,7 @@ title: Template for IPv6 vendor commitment
 ---
 
 Introduction
-------------
+============
 More and more networks depend on IPv6, and those that don't use IPv6 yet will
 very likely need it within the lifetime of the network equipment used. One of
 the biggest showstoppers when deploying IPv6 is finding out that your equipment
@@ -18,7 +18,7 @@ aid to those people or organisations interested in tendering for government or
 enterprise contracts.
 
 Background
-----------
+==========
 While it might seem that a statement like this should not be necessary,
 experience has shown that vendors sometimes don't take IPv6 seriously. For the
 stability and manageability of our networks this needs to change.
@@ -84,17 +84,17 @@ The vendor agrees, in writing, to the following:
   and status to C-level leadership in the company.
 
 Recommendations
----------------
+===============
 
 For enterprises and governments
-===============================
+-------------------------------
 Require your vendors to conform to this statement in all tenders and contracts.
 If a significant number of organisations make the same requirements then it
 makes it easier for vendors to comply. This creates a better working environment
 for everyone involved.
 
 For vendors
-===========
+-----------
 Publish this statement on your website and other publications. This makes it
 easier for enterprises and governments to do business with you, and it also
 shows to the world that you are committed to keeping up with current
