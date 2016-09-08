@@ -1,8 +1,8 @@
 ---
 title: Gaining Operational Experience with IPv6
-redirect_from: "/enterprise/preparations/playground"
-redirect_from: "/enterprise/architectural_decisions/architecture_lab"
-redirect_from: "/enterprise/implementation/validation_lab"
+redirect_from: "/enterprise/preparations/playground/"
+redirect_from: "/enterprise/architectural_decisions/architecture_lab/"
+redirect_from: "/enterprise/implementation/validation_lab/"
 ---
 When you start thinking about IPv6 deployment in your network, build isolated environment to get acquainted with configuring and using IPv6 protocol, and understanding IPv6 concepts. After you get operational experience, start thinking about lab environment to test devices, applications and features needed for production environment. Testing has been done by other people though, and you can rely on some of this and only test for your specific scenarios. 
 
