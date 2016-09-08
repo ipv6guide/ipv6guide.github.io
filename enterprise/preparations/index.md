@@ -41,6 +41,6 @@ project to implement IPv6 is doomed to fail.
 
 The final step of a good preparation is to [build a lab](build_lab) and get
 some hands-on experience.  Just reading about IPv6 is not enough.  No matter
-how well your people understand the theoretical concepts, getting the "feel"
-of how IPv6 works it is not possible to benefit from all the possibilities
-it offers.
+how well your people understand the theoretical concepts, unless they get the
+"feel" of how IPv6 works they can't benefit from all the possibilities it
+offers.
