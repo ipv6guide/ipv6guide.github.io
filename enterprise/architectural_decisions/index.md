@@ -58,6 +58,6 @@ network.  It is not uncommon to use different models for different types
 important you understand all of them.
 
 Depending on the complexity of the architecture you have designed you might
-want to [build a lab](build_lab) to see if the choices you made work well in
-practice. Especially if you are new to IPv6 detecting architectural mistakes at
-this point will save a lot of time later.
+want to [build a lab](architecture_lab) to see if the choices you made work well
+in practice. Especially if you are new to IPv6 detecting architectural mistakes
+at this point will save a lot of time later.
