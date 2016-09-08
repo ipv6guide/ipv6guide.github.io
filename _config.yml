@@ -22,3 +22,8 @@ defaults:
       path: ""
     values:
       layout: "page"
+
+gems:
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-seo-tag
