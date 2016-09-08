@@ -17,5 +17,8 @@ Try out network sniffers - tcpdump, wireshark
 Once basic scenarios are tested, starting rolling out in production environment.
 Think about security policy first and foremost. Start from upstream, build a firewall (or see if existing can be used), start enabling IPv6 on core network, then configure OSPF/IS-IS. Think about enabling IPv6 in network segment that system and/or network administrators are using and can gain experience.
 Roll-out to rest of network. Ensure helpdesk is familar with Ripe-631.
+Enable IPv6 on public facing services - DNS, web server. Until you add AAAA record, users will not use IPv6 to access your services.
+If you want to test your services, create virtual host, use different IP address and add AAAA record for a particular URL. See if everything works. You'll see problems such as hardcoded IPv4 addresses, images served from IPv4-only URLs. 
+Once services have been test, then add AAAA to enable production services.
 
 
