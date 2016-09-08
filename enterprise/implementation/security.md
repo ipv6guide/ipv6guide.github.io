@@ -8,6 +8,8 @@ Reference them
 Compare v4 to equivalent in v6
 Tony Hain - briefings
 
+Biggest threat to IPv6 security is human error. Until IPv6 is part of the regular workflows people tend to forget IPv6 and only do the IPv4 part.
+
 IPv6 makes some things better, other things worse and most things are just different, but no more or less secure
 Better
   Automated scanning and worm propagation is harder due to huge subnets
