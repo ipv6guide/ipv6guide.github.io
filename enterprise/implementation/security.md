@@ -29,6 +29,11 @@ Using link-local for infrastructure is defined in RFC 7404 - easy to deploy in b
 
 IPv6 has been deployed in the largest networks, content providers, cloud providers for many years - the most severe bugs have probably been found, but most IPv6 code is less mature than their IPv4 equivalents and some bugs may still appear, although diminishing problem. 
 
+Don't disable IPv6 in Windows - it's an unsupported configuration and required for certain services.
+
+Use switches that support RA guard mechanism (ripe-554), DHCPv6 guard, and all other mechanism described in first hop security (Cisco White Paper, IPv6 snooping policy) or ask vendor to implement it. 
+
+
 
 
 
