@@ -25,3 +25,8 @@ Look at what you're doing with IPv4 - make sure tools are able log and interpret
 
 Security managers that think you have to enumerate all hosts on a subnet - point to authoritative document
 
+Using link-local for infrastructure is defined in RFC 7404 - easy to deploy in beginning, but harder to troubleshoot later. Don't see which interface you're talking to, keep things familiar with IPv4. 
+
+
+
+
