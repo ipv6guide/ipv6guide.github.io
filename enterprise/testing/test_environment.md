@@ -1,8 +1,5 @@
 ---
 title: Gaining Operational Experience with IPv6
-redirect_from: "/enterprise/preparations/playground"
-redirect_from: "/enterprise/architectural_decisions/architecture_lab"
-redirect_from: "/enterprise/implementation/validation_lab"
 ---
 When you start thinking about IPv6 deployment in your network, build isolated environment to get acquainted with configuring and using IPv6 protocol, and understanding IPv6 concepts. After you get operational experience, start thinking about lab environment to test devices, applications and features needed for production environment. Testing has been done by other people though, and you can rely on some of this and only test for your specific scenarios. 
 
@@ -23,5 +20,14 @@ Roll-out to rest of network. Ensure helpdesk is familar with Ripe-631.
 Enable IPv6 on public facing services - DNS, web server. Until you add AAAA record, users will not use IPv6 to access your services.
 If you want to test your services, create virtual host, use different IP address and add AAAA record for a particular URL. See if everything works. You'll see problems such as hardcoded IPv4 addresses, images served from IPv4-only URLs. 
 Once services have been test, then add AAAA to enable production services.
+
+What are the recommendations for getting training?
+    Consider getting a reputable consultant
+    Send out network engineers for training, get those engineers to train IT department, helpdesk (ripe-631) and software engineers
+    How current is the training material?
+    Local IPv6 Task Force / Summits
+    
+    
+    
 
 
