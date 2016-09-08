@@ -52,5 +52,5 @@ taken into account in all future ICT projects so that you don't need to keep
 catching up.
 
 Most mainstream equipment has been well tested with IPv6. If you start using
-new features or equipment you can set up a [validation lab](validation_lab)
-to verify that everything works as it should.
+new features or equipment that isn't mainstream (yet) you might want to set up a
+[validation lab](validation_lab) to verify that everything works as it should.
