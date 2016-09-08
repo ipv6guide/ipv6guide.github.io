@@ -27,6 +27,9 @@ What are the recommendations for getting training?
     How current is the training material?
     Local IPv6 Task Force / Summits
     
+Requirements for upstream provider
+    
+    
     
     
 
