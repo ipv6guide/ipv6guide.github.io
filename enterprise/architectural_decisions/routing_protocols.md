@@ -9,6 +9,7 @@ protocols as similar to what you have for IPv4 as possible.
 
 |  IPv4  | IPv6   |
 | ------ | ------ |
+| EIGRP  | EIGRP  |
 | OSPFv2 | OSPFv3 |
 | IS-IS  | IS-IS  |
 | BGP    | BGP    |
